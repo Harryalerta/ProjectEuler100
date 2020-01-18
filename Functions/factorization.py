@@ -2,7 +2,7 @@ def factorization(number):
     if number < 2:
         return 1
     factorizationlist = []
-    primeslist = open("primeslist.txt", "r")
+    primeslist = open("../Data/primeslist.txt", "r")
     primeread = primeslist.readline()
     primetotest = int(primeread)
     while number > 1:

@@ -1,7 +1,7 @@
-import factorization
+from Functions import factorization
 
 list = [[2, 1]]
-for i in range (2,21):
+for i in range(2,21):
     factors = factorization.factorization(i)
     newprime = 1
     for j in factors:

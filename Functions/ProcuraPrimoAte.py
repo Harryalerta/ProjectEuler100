@@ -10,7 +10,7 @@ def searchprimeuntil(teto):
 
 
 lista = searchprimeuntil(150000)
-printfile = open("primeslist.txt", "w")
+printfile = open("../Data/primeslist.txt", "w")
 for i in lista:
     print(i, file=printfile)
     print(i)
